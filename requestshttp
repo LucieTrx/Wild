@@ -1,0 +1,31 @@
+### GET wilders list herokuapp.com (no filter)
+GET https://http-practice.herokuapp.com/wilders
+
+### GET wilders list herokuapp.com (page and language parameters)
+GET https://http-practice.herokuapp.com/wilders/?page=5&language=PHP
+
+### POST wilder creation (format JSON)
+POST https://http-practice.herokuapp.com/wilders
+Content-Type: application/json
+
+{
+    "name": "Dora L'exploratrice",
+    "language": "JavaScript"
+}
+### POST wilder creation (format URL-encoded)
+POST https://http-practice.herokuapp.com/wilders
+Content-Type: application/x-www-form-urlencoded
+
+name=ta%20maman&language=C%23
+
+### GET reading one of the created wilders
+GET https://http-practice.herokuapp.com/wilders/1777
+
+### PUT updating one of the created wilders
+PUT https://http-practice.herokuapp.com/wilders/1775
+Content-Type: application/x-www-form-urlencoded
+
+name=vos%20mamans
+
+### DELETE one wilder
+DELETE https://http-practice.herokuapp.com/wilders/1779
